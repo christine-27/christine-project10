@@ -1,0 +1,527 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Century Gothic';
+	color: #282828;
+}
+@font-face {
+  font-family:"Poetsen One";
+  src: url("../css/font/PoetsenOne-Regular.ttf") format("truetype");
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+.topBar {
+    padding: 20px 0;
+}
+.topLeft {
+    float: left;
+}
+.topRight {
+    float: right;
+}
+.fas {
+    color: #45a3e7;
+ }
+ .fab { 
+ 	color: #45a3e7;
+ }
+span.leftCon {
+    padding: 0 10px;
+    display: inline-flex;
+}
+span.leftCon p {
+    font-size: 17px;
+    padding: 4px;
+}
+#header {
+    background: url(../img/banner.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+.nav-toggle{
+    display: none;
+}
+.logo {
+    width: auto;
+    height: 80px;
+    float: left;
+    padding: 14px 0 14px 0;
+}
+nav {
+    margin-top: 30px;
+    background-color: #fff;
+    height: 100px;
+    padding: 10px 0;
+}
+ul.menu {
+    float: right;
+    padding: 40px 5px;
+}
+header ul li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 5px;
+}
+header a {
+    text-decoration: none;
+    color: #333333;
+}
+a.active {
+    font-weight: bolder;
+    color: #45a3e7;
+}
+header h1 {
+    font-family: 'Poetsen One';
+    font-size: 8vw;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+}
+.headerTitle {
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
+    align-items: center;
+    height: 79vh;
+}
+/*The Highest Standard Section*/
+section#healthCare {
+    padding: 100px 0;
+    text-align: center;
+}
+#healthCare h2 {
+    font-size: 50px;
+    color: #282828;
+}
+section#healthCare {
+    padding: 100px 0;
+    text-align: center;
+}
+span.blueCon {
+    color: #45a3e7;
+}
+.careList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 50px;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: center;
+}
+#healthCare h5 {
+    font-size: 35px;
+    padding: 20px;
+    font-family: Calibri;
+    color: #282828;
+}
+#healthCare p {
+	font-size: 20px;
+	line-height: 1.6;
+}
+.imgCare {
+    width: auto;
+    height: 95px;
+}
+/*Who we are */
+.weareCon h2 {
+    font-size: 50px;
+    color: #282828;
+}
+.whoweareCon {
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+.weareCon {
+    width: calc(100% / 2);
+}
+ .imgRight {
+ 	background: url(../img/whoweareleft.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+}
+img.weareImg {
+    width: 100%;
+    height: 100%;
+}
+.conCon {
+    padding: 100px 0;
+}
+#whoweare p {
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 50px 0;
+}
+a.read {
+    color: #282828;
+    text-decoration: none;
+    border: 3px solid #45a3e7;
+    padding: 7px 19px;
+    border-radius: 5px;
+}
+/*Seewhat provide*/
+#provideyourhealth h2 {
+    font-size: 50px;
+    color: #282828;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#provideyourhealth {
+    padding: 100px 0;
+}
+
+#provideyourhealth {
+ 	background: url(../img/provideyourhealth.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ }
+
+.healthCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.healthRight {
+    width: calc(100% / 2);
+}
+.listRow {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    padding: 0 50px;
+}
+.lists {
+    padding: 20px;
+}
+#provideyourhealth h5 {
+    font-size: 26px;
+    padding: 10px 0;
+    color: #45a3e7;
+}
+
+/*Meet Our Doctors*/
+#doctors {
+	padding: 100px 0;
+}
+#doctors h2 {
+    font-size: 50px;
+    color: #282828;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.careNumbers {
+    margin: 20px 10px;
+    width: calc(92% / 4);
+}
+.listDoctors {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.docContent {
+    padding: 0 20px;
+}
+.img-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img { 
+ 	display: block;
+}
+.alt-wrap { 
+    display: block;
+    position: relative;
+    margin: 10px;
+    color: whitesmoke;
+    width: calc(94% / 3);
+}
+.alt-wrap p.alt {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: rgb(69, 163, 231);
+    transition: all 300ms ease;
+    transition-delay: 300ms;
+    text-align: center;
+ }
+.alt-wrap > p.alt { 
+      opacity: 1; 
+      transition-delay: 0s;
+ }
+
+/*getintouch*/
+form {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type=text] {
+    background-color: #fff;
+    color: white;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 10px 9px;
+    width: 28%;
+    margin: 5px;
+    outline: none;
+}
+textarea {
+    background-color: #fff;
+    width: 98%;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    padding: 0 5px;
+    border-radius: 15px;
+ }
+#contact-submit {
+    background: none;
+    border: 1px solid #fff;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: #fff;
+}
+#contact {
+    background: url(../img/getintouch.jpg);
+    background-size: cover;
+ 	background-repeat: no-repeat;
+ 	width: 100%;
+ 	padding: 100px 0;
+}
+#contact h2{
+    font-size: 50px;
+    color: #fff;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+ /*footer*/
+footer {
+    background: #40a1e6;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/*media query*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    .whoweareCon {
+        display: block;
+    }
+    .weareCon {
+        width: 100%;
+    }
+    .alt-wrap {
+        width: calc(100% / 2);
+    }
+    header ul li {
+        padding: 0 5px;
+    }
+    .listRow {
+        display: block;
+    }
+    .healthCol {
+        display: flex;
+        text-align: center;
+    }
+    .listRow {
+        margin: 0;
+        padding: 0;
+    }
+    input[type=text] {
+        width: 95%;
+    }
+    .careNumbers {
+        margin: 20px 10px;
+        width: calc(100% / 3);
+    }
+    .headerTitle {
+        height: 47vh;
+    }
+    #header {
+        height: 70vh;
+    }
+}
+@media (max-width: 767px) {
+    .headerTitle {
+        height: 40vh ;
+    }
+    .healthRight {
+        width: 100%;
+    }
+    #header {
+        height: 80vh !important;
+    }
+    .alt-wrap {
+        width: 100%;
+    }
+    .weareCon {
+        width: 100%;
+    }
+    h2 {
+        font-size: 30px !important;
+    }
+    ul.menu {
+        float: right;
+        padding: 40px 0px;
+    }
+    ul.menu.menu-active {
+        background: #fff;
+        line-height: 1.6;
+    }
+     .listDoctors {
+        display: block;
+    }
+    .healthCol {
+        display: block;
+    }
+    .listRow {
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+     .careNumbers {
+        margin: 20px 10px;
+        width: 100%
+    }
+     #header {
+        height: 90vh;
+    }
+    .topLeft {
+        float: left;
+    }
+    .topRight {
+        float: right;
+    }
+    span.rightCon {
+        padding: 0;
+    }
+    span.leftCon {
+        padding: 0;
+    }
+    span.leftCon p {
+        font-size: 12px;
+        padding: 0px 5px 0 5px;
+    }
+    .fa-2x {
+        font-size: 1em;
+    }
+    input[type=text] {
+      width: 97%;
+    }
+    form {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+    }
+    #healthCare h5 {
+        font-size: 25px;
+    }
+    #provideyourhealth h5 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-toggle{
+        display: block;
+        float: right;
+        top: 36px;
+        right: 20px;
+        position: relative;
+        padding: 10px;
+        border: none;
+        background: #ffd00f;
+        color: #b10201;
+        font-weight: bolder;
+        outline: none;
+        cursor: pointer;
+    }
+    .menu {
+        float: right;
+        width: 100%;
+        display: none;
+        position: relative;
+        z-index: 9999999;
+    }
+    .nav-toggle .menu {
+        display: block;
+    }
+    header ul li {
+        display: block;
+        color: #fff;
+        padding: 15px;
+        font-size: 20px;
+        border-bottom: 1px dashed #00bcd445;
+        background: #fff;
+    }
+    .navMenu {
+        position: absolute;
+        top: 102px;
+        background-color: #000000d4;
+        z-index: 999;
+        width: 80%;
+    }
+    .activeLi {
+        color: #ff9258;
+        border-left: none;
+        border-right: none;
+    }
+
+    header .secondNav #navi ul {
+      display: block;
+      text-align: center;
+      justify-content: center;
+      padding: 0; 
+    }
+    .menu-active {
+        display: block;
+    }
+    .js .menu {
+        max-height: 0; 
+    }
+    .js .menu-active {
+        max-height: 100%;
+    }
+    ul.menu {
+        padding: 0;
+    }
+}

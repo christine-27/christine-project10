@@ -39,8 +39,7 @@ span.leftCon p {
 }
 #header {
     background: url(../img/banner.jpg);
-    height: 100vh;
-    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -50,24 +49,24 @@ span.leftCon p {
 }
 .logo {
     width: auto;
-    height: 80px;
+    height: 70px;
     float: left;
-    padding: 14px 0 14px 0;
+    padding: 5px 0;
 }
 nav {
     margin-top: 30px;
     background-color: #fff;
-    height: 100px;
+    height: 78px;
     padding: 10px 0;
 }
 ul.menu {
     float: right;
-    padding: 40px 5px;
+    padding: 30px 0;
 }
 header ul li {
     display: inline-block;
     font-size: 20px;
-    padding: 0 5px;
+    padding: 0 1vw;
 }
 header a {
     text-decoration: none;
@@ -93,7 +92,7 @@ header h1 {
 }
 /*The Highest Standard Section*/
 section#healthCare {
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 #healthCare h2 {
@@ -101,7 +100,7 @@ section#healthCare {
     color: #282828;
 }
 section#healthCare {
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 span.blueCon {
@@ -137,21 +136,21 @@ span.blueCon {
     color: #282828;
 }
 .whoweareCon {
-        display: flex;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     text-align: center;
 }
 .weareCon {
     width: calc(100% / 2);
+    overflow: hidden;
 }
- .imgRight {
+.imgRight {
  	background: url(../img/whoweareleft.jpg);
  	background-size: cover;
  	background-repeat: no-repeat;
 }
 img.weareImg {
-    width: 100%;
     height: 100%;
 }
 .conCon {
@@ -179,7 +178,7 @@ a.read {
 }
 
 #provideyourhealth {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 #provideyourhealth {
@@ -340,7 +339,7 @@ footer {
 }
 
 /*media query*/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .whoweareCon {
         display: block;
     }
@@ -364,9 +363,6 @@ footer {
         margin: 0;
         padding: 0;
     }
-    input[type=text] {
-        width: 95%;
-    }
     .careNumbers {
         margin: 20px 10px;
         width: calc(100% / 3);
@@ -374,19 +370,19 @@ footer {
     .headerTitle {
         height: 47vh;
     }
-    #header {
-        height: 70vh;
+    img.weareImg {
+	display: none;
     }
 }
 @media (max-width: 767px) {
+   .weareCon {
+	display: none;
+	}
     .headerTitle {
         height: 40vh ;
     }
     .healthRight {
         width: 100%;
-    }
-    #header {
-        height: 80vh !important;
     }
     .alt-wrap {
         width: 100%;
@@ -421,9 +417,6 @@ footer {
         margin: 20px 10px;
         width: 100%
     }
-     #header {
-        height: 90vh;
-    }
     .topLeft {
         float: left;
     }
@@ -443,9 +436,6 @@ footer {
     .fa-2x {
         font-size: 1em;
     }
-    input[type=text] {
-      width: 97%;
-    }
     form {
         width: 100%;
     }
@@ -460,11 +450,11 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 992px) {
     .nav-toggle{
         display: block;
         float: right;
-        top: 36px;
+        top: 25px;
         right: 20px;
         position: relative;
         padding: 10px;
@@ -488,7 +478,7 @@ footer {
     header ul li {
         display: block;
         color: #fff;
-        padding: 15px;
+        padding: 10px 15px;
         font-size: 20px;
         border-bottom: 1px dashed #00bcd445;
         background: #fff;
@@ -524,4 +514,14 @@ footer {
     ul.menu {
         padding: 0;
     }
+}
+@media(min-width: 1024px) and (max-width: 1200px) {
+    .careNumbers {
+	width: calc(92% / 3);
+    }
+}
+@media (max-width: 1200px) { 
+     input[type=text] {
+	width: 96%;
+   }
 }
